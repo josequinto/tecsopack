@@ -5,7 +5,7 @@ import SocialNav from "./SocialNav";
 import "../styles/NavBar.css";
 
 import Logo from "../assets/logo.png";
-import LogoB from "../assets/Logo_blanco.png";
+import LogoB from "../assets/logo_Blanco.png";
 
 const NavBar = () => {
   const initialState = {
