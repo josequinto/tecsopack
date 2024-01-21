@@ -1,14 +1,10 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-
 import "./App.css";
+import { Routes, Route } from "react-router-dom"
 
-import Inicio from "./components/Inicio";
-import QuienesSomos from "./components/QuienesSomos";
-import Socios from "./components/Socios";
-import Productos from "./components/Productos";
-import Contacto from "./components/Contacto";
+import NavBar from "./components/NavBar";
+import Inicio from "./pages/Inicio";
+import Productos from "./pages/Productos";
+import Contacto from "./pages/Contacto";
 import Footer from "./components/Footer";
 
 import Experimental from "./components/Experimental";
@@ -16,14 +12,12 @@ import Experimental from "./components/Experimental";
 function App() {
   return (
     <>
-      <Inicio />
-      <QuienesSomos />
-      <Socios />
-      <Productos />
-      <Contacto />
-      <Footer />
-
-      {/* <Experimental /> */}
+    <NavBar />
+    <Routes>
+      <Route path="/"  element={<Inicio />} />
+      <Route path="/productos" element={<Productos />} />
+      <Route path="/contacto" element={<Contacto />} />
+    </Routes>
     </>
   );
 }

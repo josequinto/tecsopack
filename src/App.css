@@ -1,61 +1,14 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Noto Sans", sans-serif;
 }
 
-#inicio {
-  width: 100%;
-  height: 100vh;
-  background-image: url("./assets/bg_page.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
 
-#Logo {
-  height: 60px;
-}
-
-#navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  font-weight: 600;
-}
-#navbar a {
-  color: white;
-  text-decoration: none;
-  padding: 15px;
-  transition: font-size 0.3s;
-}
-#navbar a:hover {
-  font-size: 14pt;
-  font-weight: 900;
-}
-#navbar div {
-  display: flex;
-  align-items: center;
-}
-
-h1 {
-  font: 900 48pt "Noto Sans", sans-serif;
-  color: aliceblue;
-  text-align: center;
-  margin-top: 25vh;
-}
-
-strong {
-  background: linear-gradient(90deg, #accc47 0, #accc47 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 40%;
-  background-position: 0 80%;
-  padding-right: 10px;
-}
 
 h2 {
   font: 900 32pt "Noto Sans", sans-serif;
@@ -99,60 +52,7 @@ h2 {
   max-width: 300px;
 }
 
-#productos article {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  justify-content: center;
-}
-.card {
-  width: 300px;
-  height: 300px;
-  background-color: #accc47;
-  border-radius: 15px;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  margin: 10px;
-  background-size: cover;
-  background-position: center;
-  
-}
-.card h2 {
-  text-align: center;
-  color: white;
-}
 
-.card:hover {
-  cursor: pointer;
-  filter: grayscale(100%);
-}
-.product {
-  width: 500px;
-  margin: 20px;
-  overflow: hidden;
-  border: 1px solid #ccc;
-  border-radius: 15px;
-}
-
-.product img {
-  width: 100%;
-  height: 450px;
-  display: block;
-}
-
-.product-details {
-  height: 200px;
-  padding: 20px;
-}
-
-.product-details h2 {
-  margin-top: 0;
-}
-
-.product-details p {
-  margin: 10px 0;
-}
 footer {
   background-color: #accc47;
   height: 500px;
@@ -162,68 +62,7 @@ footer img {
   padding-top: 40px;
 }
 
-#Contacto {
-  margin-bottom: 50px;
-}
 
-form {
-  max-width: 700px;
-  height: 600px;
-  margin: 0 auto;
-  padding: 50px;
-  border: 1px solid #ccc;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
-.form-group {
-  display: flex;
-  justify-content: space-between;
-}
-
-label {
-  color: #accc47;
-  font-weight: 600;
-  font-size: 16pt;
-  display: block;
-  margin-bottom: 8px;
-}
-
-input, textarea {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button {
-  color: #accc47;
-  background-color: white;
-  border: 2px solid #accc47;
-  border-radius: 5px;
-  font-weight: 600;
-  width: 150px;
-  margin-top: 30px;
-  padding: 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-  align-self: flex-end;
-}
-
-button:hover {
-  color: white;
-  background-color: #accc47;
-}
-#experimental {
-  height:600px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
 
 

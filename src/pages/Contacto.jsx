@@ -1,7 +1,9 @@
+import "../styles/Contacto.css"
+
 const Contacto = () => {
   return (
     <section id="Contacto">
-      <h2>Contacto</h2>
+      {/* <h2>Contacto</h2> */}
       <form action="">
         <div className="form-group">
           <label>
