@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="wave"
+   viewBox="0 0 1440 190"
+   version="1.1"
+   sodipodi:docname="waveReverse.svg"
+   style="transform:rotate(180deg); transition: 0.3s"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.27154865"
+     inkscape:cx="885.66083"
+     inkscape:cy="-156.50971"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="wave" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="sw-gradient-0"
+       x1="0"
+       x2="0"
+       y1="1"
+       y2="0">
+      <stop
+         stop-color="rgba(141, 169, 52, 1)"
+         offset="0%"
+         id="stop1" />
+      <stop
+         stop-color="rgba(141, 169, 52, 1)"
+         offset="100%"
+         id="stop2" />
+    </linearGradient>
+  </defs>
+  <path
+     style="transform:translate(0, 0px); opacity:1"
+     fill="url(#sw-gradient-0)"
+     d="M0,38L20,41.2C40,44,80,51,120,72.8C160,95,200,133,240,136.2C280,139,320,108,360,107.7C400,108,440,139,480,152C520,165,560,158,600,133C640,108,680,63,720,38C760,13,800,6,840,22.2C880,38,920,76,960,104.5C1000,133,1040,152,1080,139.3C1120,127,1160,82,1200,76C1240,70,1280,101,1320,110.8C1360,120,1400,108,1440,88.7C1480,70,1520,44,1560,34.8C1600,25,1640,32,1680,31.7C1720,32,1760,25,1800,47.5C1840,70,1880,120,1920,129.8C1960,139,2000,108,2040,107.7C2080,108,2120,139,2160,155.2C2200,171,2240,171,2280,161.5C2320,152,2360,133,2400,117.2C2440,101,2480,89,2520,76C2560,63,2600,51,2640,47.5C2680,44,2720,51,2760,57C2800,63,2840,70,2860,72.8L2880,76L2880,190L2860,190C2840,190,2800,190,2760,190C2720,190,2680,190,2640,190C2600,190,2560,190,2520,190C2480,190,2440,190,2400,190C2360,190,2320,190,2280,190C2240,190,2200,190,2160,190C2120,190,2080,190,2040,190C2000,190,1960,190,1920,190C1880,190,1840,190,1800,190C1760,190,1720,190,1680,190C1640,190,1600,190,1560,190C1520,190,1480,190,1440,190C1400,190,1360,190,1320,190C1280,190,1240,190,1200,190C1160,190,1120,190,1080,190C1040,190,1000,190,960,190C920,190,880,190,840,190C800,190,760,190,720,190C680,190,640,190,600,190C560,190,520,190,480,190C440,190,400,190,360,190C320,190,280,190,240,190C200,190,160,190,120,190C80,190,40,190,20,190L0,190Z"
+     id="path2" />
+</svg>

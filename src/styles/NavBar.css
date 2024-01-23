@@ -23,15 +23,6 @@
   margin: 10px 20px;
   transition: font-size 0.3s;
 }
-.socialNav {
-  display: flex;
-  align-items: center;
-}
-
-.socialNav a {
-  padding: 10px;
-}
-
 .active {
   font-size: 14pt;
   font-weight: 900;

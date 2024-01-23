@@ -1,64 +1,101 @@
 #Contacto {
-    margin-bottom: 50px;
-  }
-
+  margin-bottom: 50px;
+}
+#spaceContact {
+  height: 100px;
+  background-color: #8da934;
+}
+#contactCard {
+  display: flex;
+  justify-content: space-around;
+}
+.contactoCard {
+  width: 300px;
+}
+.contactoCard a {
+  color: #8da934;
+}
+.tituloContacto {
+  margin: 0;
+  color: #8da934;
+}
+#siguenos {
+  text-align: center;
+  width: 300px;
+}
+.socialNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialNav a {
+  padding: 10px;
+  transition: scale 0.3s;
+}
+.socialNav a:hover {
+  scale: 1.2;
+}
+#Contacto h2 {
+  color: #8da934;
+  text-align: center;
+}
 form {
-    max-width: 700px;
-    height: 600px;
-    margin: 0 auto;
-    padding: 50px;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .form-group {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  label {
-    color: #accc47;
-    font-weight: 600;
-    font-size: 16pt;
-    display: block;
-    margin-bottom: 8px;
-  }
-  
-  input, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button {
-    color: #accc47;
-    background-color: white;
-    border: 2px solid #accc47;
-    border-radius: 5px;
-    font-weight: 600;
-    width: 150px;
-    margin-top: 30px;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    align-self: flex-end;
-  }
-  
-  button:hover {
-    color: white;
-    background-color: #accc47;
-  }
-  #experimental {
-    height:600px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
+  max-width: 700px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  color: #accc47;
+  font-weight: 600;
+  font-size: 16pt;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  color: #accc47;
+  background-color: white;
+  border: 2px solid #accc47;
+  border-radius: 5px;
+  font-weight: 600;
+  width: 150px;
+  margin-top: 30px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+button:hover {
+  color: white;
+  background-color: #accc47;
+}
+#experimental {
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

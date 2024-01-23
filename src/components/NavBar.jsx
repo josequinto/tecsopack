@@ -52,7 +52,7 @@ const NavBar = () => {
         <NavLink
           to="/contacto"
           activeclassname="active"
-          onClick={() => setNavTheme({ logo: Logo, color: { color: "black" } })}
+          onClick={() => setNavTheme({ logo: LogoB, color: { color: "white" } })}
           style={navTheme.color}
         >
           Contacto
