@@ -66,7 +66,7 @@ const Productos = () => {
           />
         ))}
       </section>
-      <img src="src/assets/wave.svg" alt="" />
+      <img src="../assets/wave.svg" alt="" />
       <div className="descripcionProductos">
         <ProductDescription
           presentacion="Láminas"

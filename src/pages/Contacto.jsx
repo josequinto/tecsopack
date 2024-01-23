@@ -6,7 +6,7 @@ const Contacto = () => {
       {/* <h2>Contacto</h2> */}
 
       <div id="spaceContact"></div>
-      <img src="src\assets\waveReverse.svg" alt="" />
+      <img src="../assets/waveReverse.svg" alt="" />
 
       <div id="contactCard">
         <div className="contactoCard">
