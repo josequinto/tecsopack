@@ -8,6 +8,7 @@ import producto2 from "../assets/producto2.jpg";
 import producto3 from "../assets/producto3.jpg";
 import producto4 from "../assets/producto4.jpg";
 
+import wave from "../assets/wave.svg"
 const productos = [
   {
     name: "Línea convencional",
@@ -66,7 +67,7 @@ const Productos = () => {
           />
         ))}
       </section>
-      <img src="../assets/wave.svg" alt="" />
+      <img src={wave} alt="" />
       <div className="descripcionProductos">
         <ProductDescription
           presentacion="Láminas"

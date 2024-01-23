@@ -1,4 +1,5 @@
 import "../styles/Contacto.css";
+import reverseWave from "../assets/waveReverse.svg"
 import SocialNav from "../components/SocialNav";
 const Contacto = () => {
   return (
@@ -6,7 +7,7 @@ const Contacto = () => {
       {/* <h2>Contacto</h2> */}
 
       <div id="spaceContact"></div>
-      <img src="../assets/waveReverse.svg" alt="" />
+      <img src={reverseWave} alt="" />
 
       <div id="contactCard">
         <div className="contactoCard">
