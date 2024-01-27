@@ -2,7 +2,7 @@
   margin-bottom: 50px;
 }
 #spaceContact {
-  height: 120px;
+  height: 100px;
   background-color: #8da934;
 }
 #contactCard {
@@ -15,6 +15,15 @@
 .contactoCard a {
   color: #8da934;
 }
+#contact-number {
+  display: flex;
+  align-items: center;
+}
+#contact-number svg {
+  fill: #accc47;
+  margin-left: 10px;
+}
+
 .tituloContacto {
   margin: 0;
   color: #8da934;
@@ -30,7 +39,7 @@
 }
 .socialNav a {
   padding: 10px;
-  transition: scale 0.3s;
+  transition: scale 0.2s;
 }
 .socialNav a:hover {
   scale: 1.2;
@@ -50,12 +59,10 @@ form {
   flex-direction: column;
   justify-content: center;
 }
-
 .form-group {
   display: flex;
   justify-content: space-between;
 }
-
 label {
   color: #accc47;
   font-weight: 600;
@@ -63,7 +70,6 @@ label {
   display: block;
   margin-bottom: 8px;
 }
-
 input,
 textarea {
   width: 100%;
@@ -73,7 +79,6 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-
 button {
   color: #accc47;
   background-color: white;
@@ -87,15 +92,7 @@ button {
   cursor: pointer;
   align-self: flex-end;
 }
-
 button:hover {
   color: white;
   background-color: #accc47;
-}
-#experimental {
-  height: 600px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }

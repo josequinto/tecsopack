@@ -1,9 +1,6 @@
-const ProductCard = ({name, img, onClick}) => {
-  const bgImage = {
-    backgroundImage: `url(${img})`,
-  };
+const ProductCard = ({name, onClick}) => {
   return (
-    <div className="card" style={bgImage} onClick={onClick}>
+    <div className="card"  onClick={onClick}>
       <h2>{name}</h2>
     </div>
   );

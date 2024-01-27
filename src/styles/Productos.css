@@ -11,11 +11,18 @@
   justify-content: center;
   margin-top: 120px;
 }
+#productosPage h3 {
+  color: white;
+  background-color: #accc47;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
 
 .card {
-  width: 250px;
+  width: 240px;
   height: 120px;
-  background-color: #accc47;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -23,22 +30,25 @@
   margin: 10px;
   background-size: cover;
   background-position: center;
+  border: solid 1px #ccc;
+  box-shadow: black;
 }
 .card h2 {
   text-align: center;
-  color: white;
+  color: #accc47;
   font-size: 24pt;
 }
-
 .card:hover {
+  border: solid 1px #8da934;
+}
+.card h2:hover {
   cursor: pointer;
-  filter: grayscale(100%);
+  color: #8da934;
 }
 
 .descripcionProductos {
   background-color: #accc47;
   width: 100%;
-  height: 600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -58,4 +68,53 @@
   list-style: none;
   margin: 0;
   padding: 10px;
+}
+
+.productGallery {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  overflow: scroll;
+  position: relative;
+}
+.productGallery img {
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+#scroll-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  position: relative;
+}
+#scroll-gallery svg {
+  position: absolute;
+  width: 50px;
+  cursor: pointer;
+  fill: white;
+  background-color: #accc47;
+  border-radius: 50%;
+  padding: 10px;
+}
+#scroll-gallery #control-prev {
+  left: -35px;
+  top: 50%;
+}
+#scroll-gallery #control-next {
+  right: -35px;
+  top: 50%;
+}
+
+#scroll-gallery .image-container {
+  display: flex;
+  overflow: hidden;
+}
+
+#scroll-gallery .image-container img {
+  width: 300px;
+  margin: 10px;
 }

@@ -57,6 +57,14 @@ const NavBar = () => {
         >
           Contacto
         </NavLink>
+        <NavLink
+          to="/blog"
+          activeclassname="active"
+          onClick={() => setNavTheme({ logo: LogoB, color: { color: "white" } })}
+          style={navTheme.color}
+        >
+          blog
+        </NavLink>
       </div>
       {/* <SocialNav /> */}
     </nav>

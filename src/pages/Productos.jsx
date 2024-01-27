@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ProductCard from "../components/ProductCard";
 import ProductDescription from "../components/ProductDescription";
+import Gallery from "../components/Gallery";
 import "../styles/Productos.css";
 
 import producto1 from "../assets/producto1.jpg";
@@ -8,7 +9,7 @@ import producto2 from "../assets/producto2.jpg";
 import producto3 from "../assets/producto3.jpg";
 import producto4 from "../assets/producto4.jpg";
 
-import wave from "../assets/wave.svg"
+import wave from "../assets/wave.svg";
 const productos = [
   {
     name: "Línea convencional",
@@ -68,6 +69,7 @@ const Productos = () => {
         ))}
       </section>
       <img src={wave} alt="" />
+      <h3>{descripcion.name}</h3>
       <div className="descripcionProductos">
         <ProductDescription
           presentacion="Láminas"
@@ -90,6 +92,7 @@ const Productos = () => {
           datos={descripcion.portaCubiertos}
         />
       </div>
+      <Gallery />
     </div>
   );
 };
