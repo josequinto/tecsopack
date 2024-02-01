@@ -33,17 +33,18 @@
   border: solid 1px #ccc;
   box-shadow: black;
 }
+.card-selected {
+  color: red;
+}
 .card h2 {
   text-align: center;
   color: white;
   font-size: 24pt;
 }
 .card:hover {
-  border: solid 1px #8da934;
-}
-.card h2:hover {
   cursor: pointer;
-  color: #8da934;
+  border: solid 2px #8da934;
+  filter:grayscale(100%);
 }
 
 .descripcionProductos {
@@ -61,28 +62,17 @@
   color: white;
 }
 .cardDescription h4 {
+  text-align: center;
   margin-bottom: 0;
   padding: 10px;
 }
 .cardDescription ul {
+  text-align: center;
   list-style: none;
   margin: 0;
   padding: 10px;
 }
 
-.productGallery {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  overflow: scroll;
-  position: relative;
-}
-.productGallery img {
-  margin: 10px;
-  width: 300px;
-  height: 300px;
-  border-radius: 15px;
-}
 
 #scroll-gallery {
   display: flex;
@@ -117,4 +107,6 @@
 #scroll-gallery .image-container img {
   width: 300px;
   margin: 10px;
+  border-radius: 10px;
+  transition: ease-in-out;
 }

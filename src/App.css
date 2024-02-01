@@ -8,8 +8,6 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
-
-
 h2 {
   font: 900 32pt "Noto Sans", sans-serif;
   color: #accc47;
@@ -53,17 +51,63 @@ h2 {
   max-width: 250px;
 }
 
-
 footer {
-  background-color: #accc47;
-  height: 500px;
+  background-color: #1f1f1f;
+  margin-top: 40px;
 }
-footer img {
-  width: 200px;
+.footer-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-top: 40px;
+  margin: 0 40px;
 }
-
-
-
-
-
+.footer-cabecera img {
+  width: 120px;
+}
+.footer-cabecera a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 50px;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ccc;
+  fill: #ccc;
+}
+.footer-cabecera svg {
+  width: 50px;
+  height: 25px;
+}
+.footer-main {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-info-container {
+  color: #ccc;
+  fill: #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 40px;
+}
+.footer-info-container-el {
+  display: flex;
+  align-items: center;
+}
+.footer-info-container-el svg {
+  margin-right: 8px;
+}
+.footer-redes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 40px;
+}
+.footer-redes-container a svg {
+  fill: #ccc;
+}

@@ -3,7 +3,7 @@ const ProductDescription = ({presentacion, datos}) => {
         <div className="cardDescription">
         <h4>{presentacion}</h4>
         <ul>
-          {datos.map(medida=><li>{medida}</li>)}          
+          {datos.map((medida, index)=><li key={"cardDescription"+index}>{medida}</li>)}          
         </ul>
         </div>
     )

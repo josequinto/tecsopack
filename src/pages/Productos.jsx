@@ -19,6 +19,7 @@ const productos = [
     bolsillos: ["R15-L 15x15", "R17-L 17x17"],
     portaPapas: ["12.5x12.5"],
     portaCubiertos: ["7.5x22", "7.5x25"],
+    fotos: [producto1, producto1, producto1, producto1, producto1, producto1],
   },
   {
     name: "Línea industrial",
@@ -28,6 +29,7 @@ const productos = [
     bolsillos: ["n R15-L 15x15", "R17-L 17x17"],
     portaPapas: ["12.5x12.5"],
     portaCubiertos: ["7.5x22", "7.5x25"],
+    fotos: [producto2, producto2, producto2, producto2, producto2, producto2],
   },
   {
     name: "Línea genérica",
@@ -37,6 +39,7 @@ const productos = [
     bolsillos: ["m R15-L 15x15", "R17-L 17x17"],
     portaPapas: ["12.5x12.5"],
     portaCubiertos: ["7.5x22", "7.5x25"],
+    fotos: [producto3, producto3, producto3, producto3, producto3, producto3],
   },
   {
     name: "Línea Food Service",
@@ -46,6 +49,7 @@ const productos = [
     bolsillos: ["l R15-L 15x15", "R17-L 17x17"],
     portaPapas: ["12.5x12.5"],
     portaCubiertos: ["7.5x22", "7.5x25"],
+    fotos: [producto4, producto4, producto4, producto4, producto4, producto4],
   },
 ];
 
@@ -61,7 +65,7 @@ const Productos = () => {
       <section id="productos">
         {productos.map((product, index) => (
           <ProductCard
-            key={index}
+            key={"productosPage" + index}
             name={product.name}
             img={product.img}
             onClick={() => handleProductClick(product)}
@@ -72,27 +76,32 @@ const Productos = () => {
       <h3>{descripcion.name}</h3>
       <div className="descripcionProductos">
         <ProductDescription
+          key="Láminas"
           presentacion="Láminas"
           datos={descripcion.laminas}
         />
         <ProductDescription
+          key="Bolsas pequeñas"
           presentacion="Bolsas pequeñas"
           datos={descripcion.bolsas}
         />
         <ProductDescription
+          key="Bolsillos en L"
           presentacion="Bolsillos en L"
           datos={descripcion.bolsillos}
         />
         <ProductDescription
+          key="Porta papas genérico"
           presentacion="Porta papas genérico"
           datos={descripcion.portaPapas}
         />
         <ProductDescription
+          key="Porta cubiertos"
           presentacion="Porta cubiertos"
           datos={descripcion.portaCubiertos}
         />
       </div>
-      <Gallery />
+      <Gallery fotos={descripcion.fotos} />
     </div>
   );
 };

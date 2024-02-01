@@ -18,6 +18,7 @@ function App() {
       <Route path="/contacto" element={<Contacto />} />
       <Route path="/blog" element={<Blog />} />
     </Routes>
+    <Footer />
     </>
   );
 }

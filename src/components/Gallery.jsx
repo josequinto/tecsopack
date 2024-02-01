@@ -1,10 +1,6 @@
 import React, { useState, useRef } from "react";
-import producto1 from "../assets/producto1.jpg";
-import producto2 from "../assets/producto2.jpg";
-import producto3 from "../assets/producto3.jpg";
-import producto4 from "../assets/producto4.jpg";
 
-const Gallery = () => {
+const Gallery = ({fotos}) => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const galleryRef = useRef(null);
 
@@ -37,20 +33,8 @@ const Gallery = () => {
         <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
       </svg>
       <div className="image-container" ref={galleryRef}>
-        <img src={producto1} alt="" />
-        <img src={producto2} alt="" />
-        <img src={producto3} alt="" />
-        <img src={producto4} alt="" />
-        <img src={producto2} alt="" />
-        <img src={producto3} alt="" />
-        <img src={producto4} alt="" />
-        <img src={producto1} alt="" />
-        <img src={producto2} alt="" />
-        <img src={producto3} alt="" />
-        <img src={producto4} alt="" />
-        <img src={producto2} alt="" />
-        <img src={producto3} alt="" />
-        <img src={producto4} alt="" />
+        {fotos.map( (foto, index) => <img src={foto} key={"image-container" + index} /> )}
+        
       </div>
       <svg
         id="control-next"

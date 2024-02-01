@@ -39,6 +39,7 @@
 }
 .socialNav a {
   padding: 10px;
+  fill:#accc47;
   transition: scale 0.2s;
 }
 .socialNav a:hover {
@@ -79,7 +80,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-button {
+form button {
   color: #accc47;
   background-color: white;
   border: 2px solid #accc47;
